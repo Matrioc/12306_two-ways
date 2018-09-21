@@ -134,7 +134,7 @@ executable_path = C:\Users\sanshunfeng\Downloads\chromedriver.exe
 ```
 
 ```
-指定运行程序：python hack12306.py -c /Users/xxx/config.ini
+指定config文件运行程序：python hack12306.py -c /Users/xxx/config.ini
 ```
 
 
