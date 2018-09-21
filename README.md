@@ -1,11 +1,16 @@
-﻿第一种抢票：
-这个利用谷歌插件chromedriver的安装方法：
+#### 第一种抢票，需要安装python环境，新手不推荐：
+```
+这个利用谷歌插件
+chromedriver的安装方法：
 
 1、查看chrome版本号：帮助->关于Google Chrome，在打开的设置页面中间可以看到Chrome的当前版本，例如：当前Chrome版本63，下载v2.34版本的chromedriver
 2、下载chromedrive驱动：https://chromedriver.storage.googleapis.com/index.html
 3、注意浏览器chrome与chromedriver的对应版本（我的chrome是63+，因此选择2.34的chromedriver）
 4、参照下方的对应关系表下载
+```
 
+
+```
 chromedriver版本  支持的Chrome版本
     v2.34           v61-63
     v2.33           v60-62
@@ -40,10 +45,10 @@ chromedriver版本  支持的Chrome版本
     v2.4            v29-32
 下载好插件之后，就去将chromedriver放在chrome安装目录下，即C:\Program Files (x86)\Google\Chrome\Application
 利用谷歌插件chromedriver进行登录抢票，现已经放在D盘了，直接填写config.ini，然后运行hack12306程序即可。
+```
 
-
-Config文件说明
-
+#### Config文件说明
+```
 最简单的方法是修改 config.ini， 然后填写自己的乘车信息， 这些配置都可以在运行期间进行修改。
 ; config.ini
 ; 配置信息：请依照注释修改必选项，非必选项可以删除等号后的值
@@ -126,11 +131,14 @@ driver_name = chrome
 ### executable_path: 浏览器驱动路径，必选参数
 ### windows路径例如：C:\Users\sanshunfeng\Downloads\chromedriver.exe
 executable_path = C:\Users\sanshunfeng\Downloads\chromedriver.exe
+```
 
-
-
+```
 指定运行程序：python hack12306.py -c /Users/xxx/config.ini
+```
 
 
-
-第二种抢票方法：可以直接解压缩下面的12306抢票软件。找到.exe运行就可以了
+### 第二种抢票方法：
+```
+直接解压缩下面的12306抢票软件。找到.exe运行就可以了
+```
