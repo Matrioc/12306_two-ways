@@ -140,5 +140,5 @@ executable_path = C:\Users\sanshunfeng\Downloads\chromedriver.exe
 
 ### 第二种抢票方法：
 ```
-直接解压缩下面的12306抢票软件。找到.exe运行就可以了
+直接解压缩下面的12306抢票软件.rar。找到.exe运行就可以了
 ```
