@@ -1,4 +1,7 @@
 #### 第一种抢票，需要安装python环境，新手不推荐：
+#### 设计思路
+![image](https://github.com/herrywen-nanj/12306_two-ways/blob/master/resources/images/%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
+
 ```
 这个利用谷歌插件
 chromedriver的安装方法：
